@@ -60,3 +60,20 @@
 .roadmap-first .roadmap-copy,.roadmap-second .roadmap-copy{padding:14px}
 .roadmap-first .roadmap-copy p,.roadmap-second .roadmap-copy p{margin-top:8px}
 }
+/* Live V6 fit pass: keep the type, use the available row width. */
+.row-main .row-scope{font-size:15px;line-height:1.4;color:var(--ink)}
+.row-main .row-source{font-size:8px;line-height:1.4;margin:0 0 0 7px;max-width:none;text-align:left;vertical-align:baseline}
+@media(min-width:761px){
+.list-slide .section-heading .mega{display:flex;align-items:center;flex-wrap:wrap;column-gap:28px;row-gap:12px}
+.list-slide .section-heading .mega>em{margin:0}
+.list-slide .section-heading{margin-bottom:18px}
+}
+@media(max-width:760px){
+.findings-slide{padding-top:14px;padding-bottom:15px}
+.findings-slide .section-heading{margin-bottom:10px}
+.findings-slide .audit-row{grid-template-columns:42px minmax(0,1fr);column-gap:12px;padding-top:7px;padding-bottom:7px}
+.row-main .row-scope{font-size:13px;line-height:1.4}
+.row-main .row-source{font-size:8px}
+.creative-copy{grid-template-columns:48px minmax(0,1fr);gap:12px}
+}
+@media(max-width:370px){.creative-copy{grid-template-columns:44px minmax(0,1fr);gap:12px}}
