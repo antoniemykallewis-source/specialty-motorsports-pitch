@@ -1,3 +1,3 @@
 # Specialty Motorsports × Vessel Archive
 
-A seven-page, static prospect presentation using the original Vessel reference design. Open index.html or serve this folder. Use Next/Back, arrow keys or touch swipe. Public source links are included on the relevant pages.
+A 7-page static prospect presentation in the original Vessel visual style. Open index.html or serve this folder. Next/Back, arrow keys and touch swipe show one page at a time. Public source links accompany the findings.
